@@ -1,0 +1,14 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:100px auto;
+}
+.search{
+    grid-column: 1/-1;
+}

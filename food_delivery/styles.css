@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size:62.5%;
+}
+body{
+    font-family: sans-serif;
+    line-height:1;
+    font-weight: 500;
+    color:#555;
+    background-color: red;
+}
+
+.hero{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin:0 auto;
+    max-width: 130rem;
+   
+}
+
+.hero-image{
+    width:100%;
+} 
